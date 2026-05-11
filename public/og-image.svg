@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ORI Financeiro</title>
+  <desc id="desc">Capa escura com indicador financeiro e preco de lancamento.</desc>
+  <rect width="1200" height="630" fill="#07090f"/>
+  <rect x="76" y="72" width="1048" height="486" rx="24" fill="#0d1120" stroke="#2a3346"/>
+  <text x="120" y="170" fill="#f5c842" font-family="Arial, sans-serif" font-size="72" font-weight="800">ORI</text>
+  <text x="260" y="170" fill="#f0f4ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Financeiro</text>
+  <text x="120" y="260" fill="#f0f4ff" font-family="Arial, sans-serif" font-size="54" font-weight="800">Gestao financeira para</text>
+  <text x="120" y="326" fill="#f5c842" font-family="Arial, sans-serif" font-size="54" font-weight="800">negocios reais</text>
+  <text x="120" y="406" fill="#94a3b8" font-family="Arial, sans-serif" font-size="28">Fluxo de caixa, DRE, ponto de equilibrio e diagnostico ORI.</text>
+  <rect x="120" y="455" width="260" height="72" rx="12" fill="#f5c842"/>
+  <text x="154" y="503" fill="#07090f" font-family="Arial, sans-serif" font-size="28" font-weight="800">R$ 39,90/mes</text>
+  <rect x="760" y="142" width="250" height="340" rx="30" fill="#111827" stroke="#f5c842" stroke-opacity=".4"/>
+  <rect x="788" y="188" width="194" height="58" rx="10" fill="#0d2818" stroke="#14532d"/>
+  <text x="808" y="224" fill="#4ade80" font-family="Arial, sans-serif" font-size="28" font-weight="800">185%</text>
+  <rect x="788" y="268" width="88" height="64" rx="8" fill="#151d2d"/>
+  <rect x="894" y="268" width="88" height="64" rx="8" fill="#151d2d"/>
+  <rect x="788" y="350" width="194" height="80" rx="10" fill="#1a1035" stroke="#4c1d95"/>
+</svg>
