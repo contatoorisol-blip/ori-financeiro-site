@@ -235,12 +235,14 @@ main section {
 }
 
 .hero-proof-line {
-  margin-top: 10px;
-  color: var(--gold);
-  font-family: var(--display);
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.25;
+  margin-top: 12px;
+  color: rgba(245, 200, 66, 0.88);
+  font-family: var(--body);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .plan-proof-line {
@@ -981,7 +983,8 @@ main section {
   }
 
   .hero-proof-line {
-    font-size: 17px;
+    font-size: 14px;
+    white-space: normal;
   }
 
   .plan-proof-line {
