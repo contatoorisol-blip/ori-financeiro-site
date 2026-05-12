@@ -136,11 +136,49 @@ svg {
   color: var(--gold);
 }
 
+.nav-cta-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
 .nav-whatsapp:hover,
 .hero-cta:hover,
 .plan-button:hover {
   transform: translateY(-1px);
   opacity: 0.96;
+}
+
+.cta-stack {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.cta-stack-full {
+  display: flex;
+  width: 100%;
+}
+
+.cta-note,
+.hero-support-note,
+.launch-inline-note {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cta-note {
+  max-width: 320px;
+  text-align: center;
+}
+
+.hero-support-note {
+  margin-top: 10px;
 }
 
 main section {
@@ -266,58 +304,9 @@ main section {
   max-width: 360px;
 }
 
-.launch-counter {
-  display: grid;
-  justify-items: stretch;
-  margin-bottom: 14px;
-}
-
-.launch-counter small {
-  color: var(--muted);
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.launch-counter strong {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 58px;
-  margin-top: 6px;
-  padding: 0 16px;
-  border-radius: 16px;
-  border: 1px solid rgba(245, 200, 66, 0.18);
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--gold);
-  font-family: var(--display);
-  font-size: 34px;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.06em;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
-}
-
-.launch-meter span {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.launch-meter div {
-  height: 8px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.launch-meter i {
-  display: block;
-  height: 100%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, var(--gold), var(--gold-strong));
+.launch-inline-note {
+  margin: 0;
+  text-align: left;
 }
 
 .proof-section {
@@ -938,6 +927,11 @@ main section {
   .nav-whatsapp,
   .hero-cta,
   .plan-button {
+    width: 100%;
+  }
+
+  .nav-cta-stack,
+  .cta-stack {
     width: 100%;
   }
 
