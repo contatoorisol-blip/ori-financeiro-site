@@ -163,22 +163,11 @@ svg {
   width: 100%;
 }
 
-.cta-note,
-.hero-support-note,
 .launch-inline-note {
   color: var(--muted);
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
-}
-
-.cta-note {
-  max-width: 320px;
-  text-align: center;
-}
-
-.hero-support-note {
-  margin-top: 10px;
 }
 
 main section {
@@ -245,6 +234,24 @@ main section {
   color: var(--muted);
 }
 
+.hero-proof-line {
+  margin-top: 10px;
+  color: var(--gold);
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.plan-proof-line {
+  margin-top: 12px;
+  color: var(--gold);
+  font-family: var(--display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .hero-visual img {
   display: block;
   width: 100%;
@@ -299,9 +306,9 @@ main section {
 }
 
 .launch-meter {
-  flex: 0 0 360px;
-  width: 100%;
-  max-width: 360px;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
 }
 
 .launch-inline-note {
@@ -790,6 +797,10 @@ main section {
   line-height: 1.6;
 }
 
+.plan-card-primary .check-list {
+  margin-bottom: 18px;
+}
+
 .plan-button {
   width: 100%;
   justify-content: space-between;
@@ -967,6 +978,14 @@ main section {
 
   .hero-meta span + span::before {
     content: "";
+  }
+
+  .hero-proof-line {
+    font-size: 17px;
+  }
+
+  .plan-proof-line {
+    font-size: 19px;
   }
 
   .plan-card,
