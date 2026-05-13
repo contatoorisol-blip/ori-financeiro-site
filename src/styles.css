@@ -900,6 +900,10 @@ main section {
     align-items: stretch;
   }
 
+  .launch-copy {
+    flex: 1 1 auto;
+  }
+
   .launch-meter {
     max-width: none;
     flex-basis: auto;
@@ -985,6 +989,20 @@ main section {
   .hero-proof-line {
     font-size: 14px;
     white-space: normal;
+  }
+
+  .launch-bar {
+    gap: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .launch-copy strong {
+    font-size: 22px;
+  }
+
+  .launch-copy p {
+    font-size: 14px;
   }
 
   .plan-proof-line {
