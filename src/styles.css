@@ -245,6 +245,16 @@ main section {
   white-space: nowrap;
 }
 
+.trial-line {
+  margin-top: 8px;
+  color: rgba(245, 200, 66, 0.84);
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
 .plan-proof-line {
   margin-top: 12px;
   color: var(--gold);
@@ -989,6 +999,10 @@ main section {
   .hero-proof-line {
     font-size: 14px;
     white-space: normal;
+  }
+
+  .trial-line {
+    font-size: 13px;
   }
 
   .launch-bar {
