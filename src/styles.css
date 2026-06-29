@@ -112,7 +112,14 @@ svg {
   opacity: 0.92;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .nav-whatsapp,
+.nav-access,
 .hero-cta,
 .plan-button {
   display: inline-flex;
@@ -136,6 +143,14 @@ svg {
   color: var(--gold);
 }
 
+.nav-access {
+  min-height: 52px;
+  padding: 0 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--text);
+}
+
 .nav-cta-stack {
   display: flex;
   flex-direction: column;
@@ -144,6 +159,7 @@ svg {
 }
 
 .nav-whatsapp:hover,
+.nav-access:hover,
 .hero-cta:hover,
 .plan-button:hover {
   transform: translateY(-1px);
@@ -204,6 +220,25 @@ main section {
   color: #0a0c12;
   width: fit-content;
   box-shadow: 0 18px 44px rgba(245, 200, 66, 0.16);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.hero-actions .hero-cta {
+  margin-top: 0;
+}
+
+.hero-cta-secondary {
+  border: 1px solid rgba(245, 200, 66, 0.28);
+  background: rgba(245, 200, 66, 0.08);
+  color: var(--gold);
+  box-shadow: none;
 }
 
 .hero-cta svg,
@@ -930,6 +965,10 @@ main section {
     display: none;
   }
 
+  .nav-actions {
+    margin-left: auto;
+  }
+
   .feature-icon-grid {
     grid-template-columns: 1fr;
   }
@@ -952,8 +991,14 @@ main section {
   }
 
   .nav-whatsapp,
+  .nav-access,
   .hero-cta,
   .plan-button {
+    width: 100%;
+  }
+
+  .nav-actions,
+  .hero-actions {
     width: 100%;
   }
 
